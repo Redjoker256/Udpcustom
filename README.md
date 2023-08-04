@@ -7,12 +7,6 @@ UDP (User Datagram Protocol) is a network communication protocol that operates o
 ---
 <center><img src="https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/bin/banner.jpg" alt="banner" width="400"/></center>
 
----
-## Changelog: 
-see [commits](https://github.com/prjkt-nv404/UDP-Custom-Installer-Manager/commits/main)
-
----
-
 # Supported OS
 - ubuntu 20.04 [x86_64] ✅ _(recommended)_
 - [arm] ❌
@@ -22,7 +16,7 @@ see [commits](https://github.com/prjkt-nv404/UDP-Custom-Installer-Manager/commit
 sudo -s
 ``` 
 ```
-wget "https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/install.sh" -O install.sh && chmod +x install.sh && ./install.sh
+git clone https://github.com/Redjoker256/Udpcustom.git && cd Udpcustom && chmod +x install.sh && ./install.sh
 ```
 
 
@@ -33,15 +27,8 @@ wget "https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager
  * Edit path config /root/udp/config.json, after changing it then reboot
  * Optional port exclude separated by coma, ex. 53,5300
 
-## Telegram 
- > [voltssh](https://t.me/vp_voltssh)
-
- > [Volt SSH Replies](https://t.me/VoltsshBot)
-
-## Credit
- > [ePro_Dev_Team](https://t.me/ePro_Dev_Team/141)
-
- > [@rudi9999]()
+## telegram
+ > [cybertec](https://t.me/cybertechug)
 
 #
   > _made from pieces with ❤️_
