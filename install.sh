@@ -24,7 +24,7 @@ sudo apt install -y curl
 sudo apt install -y dos2unix
 sudo apt install -y neofetch
 
-source <(curl -sSL 'https://github.com/Redjoker256/Udpcustom/tree/87daaa15f7ba69787b607d34b4df7a0babd5a6dd/module')
+source <(curl -sSL 'https://raw.githubusercontent.com/Redjoker256/Udpcustom/main/module/module')
 
 time_reboot() {
   print_center -ama "${a92:-System/Server Reboot In} $1 ${a93:-Seconds}"
@@ -79,8 +79,8 @@ else
   # systemctl stop udp-request &>/dev/null
 
  # [+get files ⇣⇣⇣+]
-  source <(curl -sSL 'https://github.com/Redjoker256/Udpcustom/tree/87daaa15f7ba69787b607d34b4df7a0babd5a6dd/module') &>/dev/null
-  wget -O /etc/UDPCustom/module 'https://github.com/Redjoker256/Udpcustom/tree/87daaa15f7ba69787b607d34b4df7a0babd5a6dd/module' &>/dev/null
+  source <(curl -sSL 'https://raw.githubusercontent.com/Redjoker256/Udpcustom/main/module/module') &>/dev/null
+  wget -O /etc/UDPCustom/module 'https://raw.githubusercontent.com/Redjoker256/Udpcustom/main/module/module' &>/dev/null
   chmod +x /etc/UDPCustom/module
 
   wget "https://raw.githubusercontent.com/Redjoker256/Udpcustom/main/bin/udp-custom-linux-amd64" -O /root/udp/udp-custom &>/dev/null
@@ -88,13 +88,13 @@ else
   chmod +x /root/udp/udp-custom
   # chmod +x /usr/bin/udp-request
 
-  wget -O /etc/limiter.sh 'https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/module/limiter.sh'
+  wget -O /etc/limiter.sh 'https://raw.githubusercontent.com/Redjoker256/Udpcustom/main/module/module/limiter.sh'
   cp /etc/limiter.sh /etc/UDPCustom
   chmod +x /etc/limiter.sh
   chmod +x /etc/UDPCustom
   
   # [+udpgw+]
-  wget -O /etc/udpgw 'https://raw.githubusercontent.com/prjkt-nv404/UDP-Custom-Installer-Manager/main/module/udpgw'
+  wget -O /etc/udpgw 'https://raw.githubusercontent.com/Redjoker256/Udpcustom/main/module/module/udpgw'
   mv /etc/udpgw /bin
   chmod +x /bin/udpgw
 
