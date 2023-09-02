@@ -1,5 +1,5 @@
 #!/bin/bash
-#Version : ⇢ 2.5-Lite
+#Version : ⇢ 2.7-pro
 udp_dir='/etc/UDPCustom'
 source $udp_dir/module
 
