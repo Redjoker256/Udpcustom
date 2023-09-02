@@ -846,8 +846,8 @@ vps_info() {
   ram=$(free -m | awk 'NR==2{printf "%.2f%%", $3*100/$2 }')
 
   clear
-  title_sub "\033[3;40m${a10:-•UDP Custom Manager} by @voltssh•"
-  print_center -ama ' Version: ⇢ 2.5-Lite'
+  title_sub "\033[3;40m${a10:-•UDP CUSTOM SCRIPT} by @Redangryjoker•"
+  print_center -ama ' Version: ⇢ 2.7-pro'
   print_center -ama ' VPS Info'
   msg -bar
   echo " "
